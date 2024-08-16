@@ -1,0 +1,39 @@
+
+<router-outlet><!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="app.component.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo"><a href="#">Movie App</a></h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="/movies">Movies</a></li>
+            <li><a href="/add-movie">Add Movie</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  
+    <section class="hero">
+      <div class="container">
+        <h2>Welcome to Movie App</h2>
+        <p>Discover and manage your favorite movies.</p>
+        <a href="/movies" class="btn">Get Started</a>
+      </div>
+    </section>
+  
+    <footer class="footer">
+      <div class="container">
+        <p>© 2024 Movie App. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  </html>
+  </router-outlet>
